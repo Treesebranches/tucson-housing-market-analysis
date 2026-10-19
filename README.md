@@ -87,6 +87,7 @@ Four models compared per dataset (Linear Regression, Ridge, Random Forest, XGBoo
 - Production model: **Ridge Regression** (R²=0.793, RMSE $27,253)
 - Key finding: regularized linear models outperform tree-based methods at this sample size
 - Tree-based methods underperformed due to insufficient data for ensemble averaging
+- Added cross validation on 5 folds that reflects small-sample instability
 
 **Resale Homes** (n=280 training rows):
 - Production model: **XGBoost** (R²=0.849, RMSE $79,233)
